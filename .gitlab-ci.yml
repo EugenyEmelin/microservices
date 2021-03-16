@@ -43,7 +43,7 @@ staging:
   stage: stage
   when: manual
   only:
-    - /^\d+\.\d+\.d+/
+    - /^\d+\.\d+\.\d+/
   script:
     - echo 'Staging deploy with tag!'
   environment:
@@ -54,7 +54,7 @@ production:
   stage: production
   when: manual
   only:
-    - /^\d+\.\d+\.d+/
+    - /^\d+\.\d+\.\d+/
   script:
     - echo 'Production deploy with tag!'
   environment:
