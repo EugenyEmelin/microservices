@@ -1,0 +1,24 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: buld
+  script:
+    - echo 'Building'
+
+test_unit_job:
+  stage: 
+  script:
+    - echo 'Unit test'
+
+test integration_job:
+  stage: 
+  srcipt:
+    - echo 'Integration test'
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo 'Deploy'
