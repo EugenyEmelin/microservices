@@ -45,7 +45,7 @@ staging:
   only:
     - /^\d+\.\d+\.d+/
   script:
-    - echo 'Staging deploy with tag'
+    - echo 'Staging deploy with tag!'
   environment:
     name: stage
     url: https://beta.exmple.com
@@ -56,7 +56,7 @@ production:
   only:
     - /^\d+\.\d+\.d+/
   script:
-    - echo 'Production deploy with tag'
+    - echo 'Production deploy with tag!'
   environment:
     name: production
     url: https://example.com
