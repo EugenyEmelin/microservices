@@ -4,19 +4,19 @@ stages:
   - deploy
 
 build_job:
-  stage: buld
+  stage: build
   script:
     - echo 'Building'
 
 test_unit_job:
-  stage: 
+  stage: test
   script:
-    - echo 'Unit test'
+    - echo 'Testing 1'
 
-test integration_job:
-  stage: 
-  srcipt:
-    - echo 'Integration test'
+test_integration_job:
+  stage: test
+  script:
+    - echo 'Testing 2'
 
 deploy_job:
   stage: deploy
